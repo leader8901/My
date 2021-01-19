@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.myandroidhelper.myaccountant">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launch"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_launch"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.NoteAddActivity"></activity>
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.CalendarActivity" />
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.CalculatorActivity" />
+        <activity
+            android:name="ru.myandroidhelper.myaccountant.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.UpdateExpActivity" />
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.UpdateActivityIncome" />
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.AddActivityExp" />
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.AddActivityIncome" />
+        <activity android:name="ru.myandroidhelper.myaccountant.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
